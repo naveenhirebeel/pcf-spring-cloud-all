@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: client1
+
+server:
+  port: 8080
+#  servlet:
+#    context-path: /client1
+
+# Enable below lines for local deployment
+#eureka:
+#  client:
+#    register-with-eureka: false
+#    fetch-registry: false

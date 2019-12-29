@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: client1
+
+server:
+  port: 8080
+#  servlet:
+#    context-path: /client1
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
